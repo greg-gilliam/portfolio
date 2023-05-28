@@ -18,7 +18,11 @@ export default class Projects extends Component {
                     <div className="columns projects-item">
                       <div className="item-wrap">
                         <a href="modal-01">
-                          <img src={`${item.imgurl}`} className="item-img" />
+                          <img
+                            src={`${item.imgurl}`}
+                            className="item-img"
+                            alt=""
+                          />
                           <div className="overlay">
                             <div className="projects-item-meta">
                               <h5>{item.name}</h5>
